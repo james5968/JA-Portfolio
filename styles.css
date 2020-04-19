@@ -2,10 +2,13 @@
   display:grid;
 } */
 
-@media (max-width:400px) {
+@media only screen and (max-width:768px) {
     .welcome-section {
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    .img-project img {
+        height: 60%;
     }
 }
 
@@ -102,8 +105,9 @@ body {
 }
 
 .img-project {
-    height: 50%;
+    height: 80%;
     align-self: flex-start;
     justify-self: center;
-    margin: auto;
+    margin: 0 auto 0 auto;
+    box-shadow: 0 0 2em rgba(40, 40, 40, 0.8);
 }
